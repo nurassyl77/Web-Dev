@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                background-color: rgb(230, 240, 250);
+                font-family: "Trebuchet MS", sans-serif;
+                display: flex;
+                justify-content: center;
+                padding-top: 50px;
+            }
+
+            .invite-card {
+                background-color: white;
+                width: 450px;
+                padding: 30px;
+                border: 5px double rgb(0, 100, 200);
+                border-radius: 15px;
+                text-align: center;
+                position: relative;
+            }
+
+            /* 3. Мәтін стильдері (Grouping Elements) */
+            h1, h2 {
+                color: rgb(0, 50, 150);
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 36px;
+                text-transform: uppercase;
+            }
+
+            /* 4. Мәліметтер бөлімі */
+            .details {
+                background-color: rgb(245, 245, 245);
+                padding: 15px;
+                margin: 20px 0;
+                border-radius: 10px;
+                text-align: left;
+                list-style: none; /* Тізім нүктелерін алып тастау */
+            }
+
+            .details li {
+                margin-bottom: 8px;
+                font-size: 18px;
+            }
+
+            /* 5. RSVP Батырмасы */
+            .rsvp-button {
+                padding: 12px 25px;
+                background-color: rgb(255, 100, 0);
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 25px;
+                margin-top: 20px;
+            }
+
+            .rsvp-button:hover {
+                background-color: rgb(200, 80, 0);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="invite-card">
+            <h1>You're invited!</h1>
+            <h2>To the Annual Coding Party 2026 </h2>
+            
+            <p>Join us for a night of debugging, pizza, and networking with fellow developers!</p>
+            
+            <ul class="details">
+                <li><strong>Date:</strong> Saturday, Feb 14</li>
+                <li><strong>Time:</strong> 7:00 PM</li>
+                <li><strong>Location:</strong> Tech Hub, Almaty</li>
+                <li><strong>Food:</strong> Pizza & Energy Drinks provided</li>
+            </ul>
+            
+            <a href="#" class="rsvp-button">RSVP NOW</a>
+        </div>
+        
+    </body>
+</html>
